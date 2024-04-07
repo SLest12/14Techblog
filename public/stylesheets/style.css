@@ -113,47 +113,7 @@ header,
     border: 3px solid black;
     padding-bottom: 10px;
 }
-
-.form-heading {
-    padding: 10px;
-}
-
-.info-section,
-.content-section,
-.form-section,
-.sign-in-link,
-.login-link {
-    padding-left: 10px;
-}
-
-.post-name,
-.post-title-section, .new-page {
-    padding-top: 10px;
-}
-
-header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 0 1%;
-}
-
-header h1 {
-    font-size: 1em;
-}
-
-.site-row {
-    display: flex;
-    border-bottom: 1px solid #ccc;
-    justify-content: center;
-}
-
-.site-name {
-    margin-bottom: 10px;
-    padding: 0px 10px;
-    border-style: double;
-}
-
+    
 main {
     flex: 1;
     padding: 2% 4%;
@@ -227,6 +187,47 @@ main {
 .edit-post-form {
     margin-bottom: 5%;
 }
+
+.form-heading {
+    padding: 10px;
+}
+
+.info-section,
+.content-section,
+.form-section,
+.sign-in-link,
+.login-link {
+    padding-left: 10px;
+}
+
+.post-name,
+.post-title-section, .new-page {
+    padding-top: 10px;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 1%;
+}
+
+header h1 {
+    font-size: 1em;
+}
+
+.site-row {
+    display: flex;
+    border-bottom: 1px solid #ccc;
+    justify-content: center;
+}
+
+.site-name {
+    margin-bottom: 10px;
+    padding: 0px 10px;
+    border-style: double;
+}
+
 
 #comment-subtitle {
     font-size: 12px;
