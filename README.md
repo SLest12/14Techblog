@@ -1,4 +1,4 @@
-## Tech Blog
+## Tech  type Blog
 
 ## Description
 

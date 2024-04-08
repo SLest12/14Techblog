@@ -1,5 +1,4 @@
 const router = require('express').Router();
-const sequelize = require('../config/connection');
 const {
     Post,
     User,
@@ -37,6 +36,7 @@ router.get('/', withAuth, (req, res) => {
             const posts = dbPostData.map(post => post.get({
                 plain: true
             }));
+            console.log(posts);
             res.render('dashboard', {
                 posts,
                 loggedIn: true
