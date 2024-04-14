@@ -1,7 +1,7 @@
 ## --------Tech type Blog-------
 
 ## Description
- This app is a CMS-style blog site where developers can publish their blog posts and comment on other developers’ posts as well
+ Thiss app is a CMS-style blog site where developers can publish their blog posts and comment on other developers’ posts as well
 ## Deployed Application URL
 https://techtypeblog-e0c9c6bd85a2.herokuapp.com/
 ## Screenshot
