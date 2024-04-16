@@ -8,18 +8,18 @@ html {
     padding: 0;
     margin: 0;
     font-family: sans-serif;
-    color: #333;
+    color: #06147d;
 }
 
 main,
 .site-name {
-    background-color: #b8cba2;
+    background-color: #4ab0e3;
 }
 
 a,
 .btn-no-style,
 #comment-subtitle {
-    color: #b8cba2;
+    color: #5a9614;
 }
 
 a:hover,
@@ -103,7 +103,7 @@ header,
 .site-row,
 .info-section,
 .form-heading {
-    background-color: #2c2307;
+    background-color: #2c1270;
 }
 
 .login-page,
@@ -205,6 +205,16 @@ main {
     padding-top: 10px;
 }
 
+.new-post-section {
+    display: flex;
+    justify-content: center;
+}
+
+#create-new-post {
+    width: 15%;
+}
+
+
 header {
     display: flex;
     justify-content: space-between;
@@ -234,14 +244,7 @@ header h1 {
     font-style: italic;
 }
 
-.new-post-section {
-    display: flex;
-    justify-content: center;
-}
 
-#create-new-post {
-    width: 15%;
-}
 
 .sign-in-link,
 .login-link {
@@ -253,6 +256,14 @@ header h1 {
     color: #b8cba2;
 }
 
+.entry-field,
+.login-signup-btn,
+.btn,
+#post-title {
+    width: 100%;
+}
+
+
 .login-form,
 .signup-form,
 .post-content,
@@ -260,9 +271,4 @@ header h1 {
     padding: 10px 10px 0px 0px;
 }
 
-.entry-field,
-.login-signup-btn,
-.btn,
-#post-title {
-    width: 100%;
-}
+
